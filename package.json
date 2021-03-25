@@ -8,6 +8,7 @@
     "nx": "nx",
     "start": "ng serve",
     "build": "ng build",
+    "build:all": "ng build first --prod --base-href /first/ && ng build second-app --prod --base-href /second/",
     "build:first": "ng build first --prod --base-href /first/",
     "build:second": "ng build second-app --prod --base-href /second/",
     "test": "ng test",
